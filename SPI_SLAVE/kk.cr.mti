@@ -1,0 +1,192 @@
+C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_test_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_test.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_env_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_coverage_pkg
+-- Importing package SPI_scoreboard_pkg
+-- Importing package SPI_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_interface.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_interface.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_interface
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_sequencer.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_sequencer.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sequencer_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_sequencer.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_assertions.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_assertions.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_config_object.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_config_object.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_config_object.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_coverage.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_coverage.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_coverage.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_driver.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_driver.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_golden.v {1 {vlog -work work -vopt -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_golden.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_golden
+
+Top level modules:
+	spi_golden
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_agent.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_agent.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_config_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_agent.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_seq_item.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_seq_item.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_seq_item.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_shared_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_shared_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_monitor_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_monitor.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_env.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_env.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_env_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_env.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_coverage_pkg
+-- Importing package SPI_scoreboard_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_sequence.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_sequence.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sequence_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_sequence.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+-- Importing package SPI_sequencer_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_test_pkg
+-- Importing package SPI_env_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_coverage_pkg
+-- Importing package SPI_scoreboard_pkg
+-- Importing package SPI_sequence_pkg
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_top.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	SPI_top
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_slave.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_slave.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLAVE
+
+Top level modules:
+	SLAVE
+
+} {} {}} C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_scoreboard.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_scoreboard_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/User/Desktop/Project2_final/Omar_Waleed_Project2/SPI_SLAVE/SPI_scoreboard.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_seq_item_pkg
+-- Importing package SPI_shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

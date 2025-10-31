@@ -1,0 +1,301 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /SPI_top/DUT
+=== Design Unit: work.SLAVE
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      12        12         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/SPI_top/DUT/assert__read_data_to_idle
+                     SPI_slave.sv(231)                  0          1
+/SPI_top/DUT/assert__read_add_to_idle
+                     SPI_slave.sv(223)                  0          1
+/SPI_top/DUT/assert__write_to_idle
+                     SPI_slave.sv(215)                  0          1
+/SPI_top/DUT/assert__check_cmd_to_read_data
+                     SPI_slave.sv(207)                  0          1
+/SPI_top/DUT/assert__check_cmd_to_read_addr
+                     SPI_slave.sv(200)                  0          1
+/SPI_top/DUT/assert__check_cmd_to_write
+                     SPI_slave.sv(193)                  0          1
+/SPI_top/DUT/assert__idle_to_check_cmd
+                     SPI_slave.sv(185)                  0          1
+/SPI_top/DUT/assert__read_data_seq
+                     SPI_slave.sv(175)                  0          1
+/SPI_top/DUT/assert__read_add_seq
+                     SPI_slave.sv(167)                  0          1
+/SPI_top/DUT/assert__write_data_seq
+                     SPI_slave.sv(159)                  0          1
+/SPI_top/DUT/assert__write_add_seq
+                     SPI_slave.sv(151)                  0          1
+/SPI_top/DUT/assert__assert_reset
+                     SPI_slave.sv(142)                  0          1
+
+Directive Coverage:
+    Directives                      12        12         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/SPI_top/DUT/cover__read_data_to_idle    SLAVE  Verilog  SVA  SPI_slave.sv(232)
+                                                                                27 Covered   
+/SPI_top/DUT/cover__read_add_to_idle     SLAVE  Verilog  SVA  SPI_slave.sv(224)
+                                                                                85 Covered   
+/SPI_top/DUT/cover__write_to_idle        SLAVE  Verilog  SVA  SPI_slave.sv(216)
+                                                                                91 Covered   
+/SPI_top/DUT/cover__check_cmd_to_read_data 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(208)
+                                                                                61 Covered   
+/SPI_top/DUT/cover__check_cmd_to_read_addr 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(201)
+                                                                               146 Covered   
+/SPI_top/DUT/cover__check_cmd_to_write   SLAVE  Verilog  SVA  SPI_slave.sv(194)
+                                                                               188 Covered   
+/SPI_top/DUT/cover__idle_to_check_cmd    SLAVE  Verilog  SVA  SPI_slave.sv(186)
+                                                                               415 Covered   
+/SPI_top/DUT/cover__read_data_seq        SLAVE  Verilog  SVA  SPI_slave.sv(176)
+                                                                                11 Covered   
+/SPI_top/DUT/cover__read_add_seq         SLAVE  Verilog  SVA  SPI_slave.sv(168)
+                                                                                14 Covered   
+/SPI_top/DUT/cover__write_data_seq       SLAVE  Verilog  SVA  SPI_slave.sv(160)
+                                                                                12 Covered   
+/SPI_top/DUT/cover__write_add_seq        SLAVE  Verilog  SVA  SPI_slave.sv(152)
+                                                                                11 Covered   
+/SPI_top/DUT/cover__assert_reset         SLAVE  Verilog  SVA  SPI_slave.sv(143)
+                                                                               237 Covered   
+
+=================================================================================
+=== Instance: /SPI_sequence_pkg
+=== Design Unit: work.SPI_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/SPI_sequence_pkg/SPI_main_sequence/body/#ublk#33843783#45/immed__48
+                     SPI_sequence.sv(48)                0          1
+
+=================================================================================
+=== Instance: /SPI_coverage_pkg
+=== Design Unit: work.SPI_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins         18        18         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cov_cg           100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_cp                             100.00%        100          -    Covered              
+        covered/total bins:                                10         10          -                      
+        missing/total bins:                                 0         10          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross SSn_MOSI_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cov_cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_cp                             100.00%        100          -    Covered              
+        covered/total bins:                                10         10          -                      
+        missing/total bins:                                 0         10          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin b00                                          1587          1          -    Covered              
+        bin b01                                          1022          1          -    Covered              
+        bin b10                                          1199          1          -    Covered              
+        bin b11                                           958          1          -    Covered              
+        bin trans_00_01                                    69          1          -    Covered              
+        bin trans_10_11                                    66          1          -    Covered              
+        bin trans_00_00                                  1393          1          -    Covered              
+        bin trans_01_01                                   929          1          -    Covered              
+        bin trans_10_10                                  1047          1          -    Covered              
+        bin trans_11_11                                   865          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin normal_transaction                             72          1          -    Covered              
+        bin extended_transaction                           22          1          -    Covered              
+    Coverpoint MOSI_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                    592          1          -    Covered              
+        bin write_data                                    637          1          -    Covered              
+        bin read_addr                                     632          1          -    Covered              
+        bin read_data                                     652          1          -    Covered              
+    Cross SSn_MOSI_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <normal_transaction,read_addr>             10          1          -    Covered              
+            bin <normal_transaction,write_data>             9          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin illegal_cross                       26                     -    Occurred             
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /SPI_coverage_pkg/SPI_coverage/cov_cg           100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_cp                             100.00%        100          -    Covered              
+        covered/total bins:                                10         10          -                      
+        missing/total bins:                                 0         10          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross SSn_MOSI_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/SPI_coverage_pkg::SPI_coverage::cov_cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    18         18          -                      
+    missing/total bins:                                     0         18          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_cp                             100.00%        100          -    Covered              
+        covered/total bins:                                10         10          -                      
+        missing/total bins:                                 0         10          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin b00                                          1587          1          -    Covered              
+        bin b01                                          1022          1          -    Covered              
+        bin b10                                          1199          1          -    Covered              
+        bin b11                                           958          1          -    Covered              
+        bin trans_00_01                                    69          1          -    Covered              
+        bin trans_10_11                                    66          1          -    Covered              
+        bin trans_00_00                                  1393          1          -    Covered              
+        bin trans_01_01                                   929          1          -    Covered              
+        bin trans_10_10                                  1047          1          -    Covered              
+        bin trans_11_11                                   865          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin normal_transaction                             72          1          -    Covered              
+        bin extended_transaction                           22          1          -    Covered              
+    Coverpoint MOSI_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                    592          1          -    Covered              
+        bin write_data                                    637          1          -    Covered              
+        bin read_addr                                     632          1          -    Covered              
+        bin read_data                                     652          1          -    Covered              
+    Cross SSn_MOSI_cross                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <normal_transaction,read_addr>             10          1          -    Covered              
+            bin <normal_transaction,write_data>             9          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin illegal_cross                       26                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/SPI_top/DUT/cover__read_data_to_idle    SLAVE  Verilog  SVA  SPI_slave.sv(232)
+                                                                                27 Covered   
+/SPI_top/DUT/cover__read_add_to_idle     SLAVE  Verilog  SVA  SPI_slave.sv(224)
+                                                                                85 Covered   
+/SPI_top/DUT/cover__write_to_idle        SLAVE  Verilog  SVA  SPI_slave.sv(216)
+                                                                                91 Covered   
+/SPI_top/DUT/cover__check_cmd_to_read_data 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(208)
+                                                                                61 Covered   
+/SPI_top/DUT/cover__check_cmd_to_read_addr 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(201)
+                                                                               146 Covered   
+/SPI_top/DUT/cover__check_cmd_to_write   SLAVE  Verilog  SVA  SPI_slave.sv(194)
+                                                                               188 Covered   
+/SPI_top/DUT/cover__idle_to_check_cmd    SLAVE  Verilog  SVA  SPI_slave.sv(186)
+                                                                               415 Covered   
+/SPI_top/DUT/cover__read_data_seq        SLAVE  Verilog  SVA  SPI_slave.sv(176)
+                                                                                11 Covered   
+/SPI_top/DUT/cover__read_add_seq         SLAVE  Verilog  SVA  SPI_slave.sv(168)
+                                                                                14 Covered   
+/SPI_top/DUT/cover__write_data_seq       SLAVE  Verilog  SVA  SPI_slave.sv(160)
+                                                                                12 Covered   
+/SPI_top/DUT/cover__write_add_seq        SLAVE  Verilog  SVA  SPI_slave.sv(152)
+                                                                                11 Covered   
+/SPI_top/DUT/cover__assert_reset         SLAVE  Verilog  SVA  SPI_slave.sv(143)
+                                                                               237 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 12
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/SPI_top/DUT/assert__read_data_to_idle
+                     SPI_slave.sv(231)                  0          1
+/SPI_top/DUT/assert__read_add_to_idle
+                     SPI_slave.sv(223)                  0          1
+/SPI_top/DUT/assert__write_to_idle
+                     SPI_slave.sv(215)                  0          1
+/SPI_top/DUT/assert__check_cmd_to_read_data
+                     SPI_slave.sv(207)                  0          1
+/SPI_top/DUT/assert__check_cmd_to_read_addr
+                     SPI_slave.sv(200)                  0          1
+/SPI_top/DUT/assert__check_cmd_to_write
+                     SPI_slave.sv(193)                  0          1
+/SPI_top/DUT/assert__idle_to_check_cmd
+                     SPI_slave.sv(185)                  0          1
+/SPI_top/DUT/assert__read_data_seq
+                     SPI_slave.sv(175)                  0          1
+/SPI_top/DUT/assert__read_add_seq
+                     SPI_slave.sv(167)                  0          1
+/SPI_top/DUT/assert__write_data_seq
+                     SPI_slave.sv(159)                  0          1
+/SPI_top/DUT/assert__write_add_seq
+                     SPI_slave.sv(151)                  0          1
+/SPI_top/DUT/assert__assert_reset
+                     SPI_slave.sv(142)                  0          1
+/SPI_sequence_pkg/SPI_main_sequence/body/#ublk#33843783#45/immed__48
+                     SPI_sequence.sv(48)                0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+
